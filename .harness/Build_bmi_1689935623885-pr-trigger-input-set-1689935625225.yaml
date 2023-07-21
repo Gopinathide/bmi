@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_bmi_1689935623885-pr-trigger-input-set
+  identifier: Build_bmi_1689935623885prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: demo
+  pipeline:
+    identifier: Build_bmi_1689935623885
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
